@@ -20,6 +20,3 @@ uma segunda tela, basicamente uma landing page, onde será possível ver a lista
 ---
 - [Repositório Git com o arquivo mais atual](https://github.com/paulasilva88/ProjetoRamenTech)
 - [Apresentação do projeto](https://docs.google.com/presentation/d/16FKHl1vV6Xow2W7n3adw7qmuu3jo_CI5Qr11IYl9zOw/edit?usp=sharing)
-
-## O que você precisa para utilizar executar esse projeto:
-- O node 
