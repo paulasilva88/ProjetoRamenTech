@@ -1,0 +1,140 @@
+@charset "ISO-8859-1";
+
+body{
+	
+}
+
+.telaInteira{
+	display:flex;
+	flex-direction: column;
+	width: 100%;
+	min-height:500%;
+	font-family: 'Inter', sans-serif;
+}
+
+.tela{
+	display:flex;
+	align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+#telaApresentacao{
+	display:flex;
+	align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+ 	/*Configuração dos elememntos da página*/
+    flex-direction: column;
+    
+}
+
+
+#telaInstagram{
+	display:flex;
+	flex-direction: row;
+	align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #EF7689;
+    color: white;
+}
+
+#telaWhatsApp{
+	display:flex;
+	flex-direction: row;
+	align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color:#89CE8C;
+}
+
+#telaGoogleMaps{
+	display:flex;
+	flex-direction: row;
+	align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+#telaResumoServicos{
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #EF7689;
+}
+
+.resumoServico{
+	display:flex;
+	background-color: white;
+	border:1px;
+	border-radius: 10px;
+	margin: 10px;
+}
+
+h1{
+	font-size: 90px;
+	font-weight: bold;
+	font-family: 'Inter', sans-serif;
+	width: 50%;
+	text-align: center;
+	margin:10px;
+}
+
+h2{
+	font-size: 40px;
+	font-weight: bold;
+	font-family: 'Inter', sans-serif;
+	width: 85%;
+	text-align: center;
+	margin:10px;
+	
+}
+
+.mensagem{
+	display:flex;
+	align-items: center;
+	flex-direction: column;
+	
+}
+.imagem{
+	height: 900px;
+	display:flex;
+	align-items: center;
+}
+
+#TextoApresentacao{
+	font-size: 20px;
+	font-family: 'Inter', sans-serif;
+	width:85%;
+	text-align: center;
+}
+
+p{
+	font-family: 'Inter', sans-serif;
+	align-items: center;
+}
+
+.botao {
+	border-radius:10px;
+	background-color: #EF7689;
+	border: 0;
+	width: 200px;
+	height:50px;
+	font-size: 16px;
+	color: white;
+	font-weight: bold;
+	
+}
+
+#botaoInstagram{
+	background-color: white;
+	color: #EF7689;
+}
