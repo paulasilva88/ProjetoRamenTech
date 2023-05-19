@@ -15,12 +15,35 @@
     color: white;
 }
 
+.divTexto{
+	display:flex;
+	flex-direction: column;
+	justify-content: center; /*vertical*/
+   	align-items: center;
+}
+
 .campo{
 	display: flex;
 	flex-direction: column;
-}
-
-.tituloCampo{
-	display: flex;
 	align-items: center;
 }
+
+h2{
+	align-items: center;
+}
+
+.texto{
+	display:flex;
+	flex-direction: column;
+	justify-content: center; /*vertical*/
+   	align-items: center;
+}
+
+.redesSociais{
+	display: flex;
+}
+
+.quadroRedesSociais{
+	margin: 10px;
+}
+
