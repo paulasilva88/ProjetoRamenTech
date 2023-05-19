@@ -1,0 +1,163 @@
+@charset "ISO-8859-1";
+
+body{
+	
+}
+
+.telaInteira{
+	display:flex;
+	flex-direction: column;
+	width: 100%;
+	min-height:500%; /*5 telas*/
+	font-family: 'Inter', sans-serif;
+}
+
+.tela{
+	display:flex;
+	align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+#telaApresentacao{
+	display:flex;
+	align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+ 	/*Configuração dos elememntos da página*/
+    flex-direction: column;
+    
+}
+
+#telaInstagram{
+	display:flex;
+	flex-direction: row;
+	align-items: center;
+    justify-content: center;
+    background-color: #EF7689;
+    color: white;
+}
+
+#telaWhatsApp{
+	display:flex;
+	flex-direction: row;
+	align-items: center;
+	background-color:#89CE8C;
+    justify-content: center;
+    width: 100%;
+    
+    
+}
+
+#telaGoogleMaps{
+	display:flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	background-color: white;
+	width: 100%;
+    height: 100vh;
+    
+  
+}
+
+#telaResumoServicos{
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+    justify-content:space-around;
+    width: 100%;
+    background-color: #9E6A90;
+    padding-top: 50px;
+}
+
+.SubTelaResumos{
+	display:flex;
+	flex-direction: row;
+}
+
+.resumoServico{
+	display:flex;
+	flex-direction: column;
+	background-color: white;
+	justify-content:space-around;
+	aligh-items:center;
+	border:1px;
+	border-radius: 10px;
+	margin: 10px;
+	width: 30%;
+	height:250px;
+}
+
+h1{
+	font-size: 90px;
+	font-weight: bold;
+	font-family: 'Inter', sans-serif;
+	width: 50%;
+	text-align: center;
+	margin:10px;
+}
+
+h2{
+	font-size: 40px;
+	font-weight: bold;
+	font-family: 'Inter', sans-serif;
+	width: 85%;
+	text-align: center;
+	margin:10px;
+	
+}
+
+h3{
+	text-align: center;
+}
+
+.mensagem{
+	display:flex;
+	align-items: center;
+	flex-direction: column;
+	width:50vm;
+	
+}
+.imagem{
+	height: 900px;
+	display:flex;
+	align-items: center;
+}
+
+#TextoApresentacao{
+	font-size: 20px;
+	font-family: 'Inter', sans-serif;
+	width:85%;
+	text-align: center;
+}
+
+p{
+	font-family: 'Inter', sans-serif;
+	align-items: center;
+}
+
+.botao {
+	border-radius:10px;
+	background-color: #EF7689;
+	border: 0;
+	width: 200px;
+	height:50px;
+	font-size: 16px;
+	color: white;
+	font-weight: bold;
+	
+}
+
+#botaoBrancoRosa{
+	background-color: white;
+	color: #EF7689;
+}
+
+#botaoBrancoVerde{
+	background-color: white;
+	color: #89CE8C;
+}
+
